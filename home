@@ -61,7 +61,7 @@
                        
                         <p id="latest_tweet_date" class="latest_post"></p>
                         <p id="twitter_link">
-                            <a  class="social_link_blank" href="https://twitter.com/AberdeenMall" target="_blank">@AberdeenMall</a>
+                            <a  class="social_link_blank" href="https://twitter.com/quintemall" target="_blank">@AberdeenMall</a>
                         </p>
                     </span>
                     <span class="visible-sm-block visible-xs-block">
