@@ -94,11 +94,11 @@
             }); 
             
             // check if top header should be shown 
-            if(slug == 'quinte-act-green-initiatives'){
+            if(slug == 'quinte-wifi'){
                 $("#act_green").show();
                 
             }
-            else if (slug == 'quinte-in-the-community'){
+            else if (slug == 'quinte-tourism'){
                 $("#in_community").show();
                 
             }
