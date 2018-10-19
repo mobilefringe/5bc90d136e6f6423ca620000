@@ -92,8 +92,19 @@
                 </li>
                 <li>
                     <a href="/promotions">
-                        <span data-i18n="nav.promos"></span>
+                        <span ></span>
                     </a>
+                </li>
+                 <li>
+                    <a href="#" class="submenu_expander open">
+                        <span data-i18n="nav.promos"></span>
+                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461166990000/open_submenu.png" alt="" style="display: none;">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: inline;">
+                    </a>
+                    <ul class="sub_menu">
+						<li><a href="/stores" data-i18n="nav.subnav.directory"></a></li>
+						<li><a href="/map" data-i18n="nav.subnav.map"></a></li>
+					</ul>
                 </li>
                 <li>
                     <a href="/events">
