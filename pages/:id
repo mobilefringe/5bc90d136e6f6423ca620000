@@ -133,6 +133,12 @@
             else if (slug == 'quinte-tourism'){
                 $("#tourism").show();
             }
+            else if (slug == 'quinte-tourism'){
+                $("#tourism").show();
+            }
+            else if (slug == 'quinte-tourism'){
+                $("#tourism").show();
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
