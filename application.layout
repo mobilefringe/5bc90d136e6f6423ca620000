@@ -122,7 +122,7 @@
                         <li><a href="/services" data-i18n="nav.subnav.services"></a></li>
                         <li><a href="/gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
                         <li><a href="/pages/quinte-wifi" data-i18n="nav.subnav.wifi"></a></li>
-                        <li><a href="/pages/quinte-tourism" data-i18n="nav.subnav.in_community"></a></li>
+                        <li><a href="/pages/quinte-tourism" data-i18n="nav.subnav.tourism"></a></li>
 					</ul>
                 </li>
             </ul>
