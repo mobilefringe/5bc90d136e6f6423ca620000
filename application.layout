@@ -108,7 +108,7 @@
 						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/59946a1b6e6f641ba4ce0000/image/png/1461179572000/close_submenu.png" alt="" style="display: inline;">
                     </a>
                     <ul class="sub_menu">
-						<li><a href="/events" data-i18n="nav.subnav.ecents"></a></li>
+						<li><a href="/events" data-i18n="nav.subnav.events"></a></li>
 						<li><a href="/pages/quinte-charities-non-profit-group" data-i18n="nav.subnav.charity"></a></li>
 					</ul>
                 </li>
