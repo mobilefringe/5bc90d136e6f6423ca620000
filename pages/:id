@@ -137,7 +137,7 @@
                 $("#tourism").show();
             }
             else if (slug == 'quinte-charities-non-profit-group'){
-                $("#charoty").show();
+                $("#charity").show();
             }
             show_content();
         }
