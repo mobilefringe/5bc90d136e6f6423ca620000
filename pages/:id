@@ -134,7 +134,7 @@
                 $("#tourism").show();
             }
             else if (slug == 'quinte-tourism'){
-                $("#tourism").show();
+                $("#military").show();
             }
             else if (slug == 'quinte-charities-non-profit-group'){
                 $("#charity").show();
