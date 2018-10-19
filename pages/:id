@@ -72,7 +72,7 @@
 <div class="store_list_head main_container hidden_now" id="charity">
     <div class="row hidden_phone">
         <div class="col-md-6">
-            <h5><a href="/events" data-i18n="inside_page.promos"></a></h5>
+            <h5><a href="/events" data-i18n="inside_page.events"></a></h5>
         </div>
          <div class="col-md-6">
             <h5 class="active_heading" data-i18n="inside_page.charity"></h5>
