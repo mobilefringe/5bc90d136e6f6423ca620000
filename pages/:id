@@ -33,13 +33,13 @@
             <h5><a href="/services" data-i18n="inside_page.services"></a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
+             <h5 class="active_heading" data-i18n="inside_page.gift_cards"></h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/pages/quinte-wifi" data-i18n="inside_page.wifi"></a></h5>
         </div>
          <div class="col-md-3">
-            <h5><a href="/pages/quinte-act-green-initiatives" data-i18n="inside_page.act_green"></a></h5>
-        </div>
-         <div class="col-md-3">
-            <h5 class="active_heading" data-i18n="inside_page.in_community"></h5>
+            <h5><a href="/pages/quinte-tourism" data-i18n="inside_page.tourism"></a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -47,8 +47,8 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/services" data-i18n="inside_page.services"></option>
-            <option value="/gift-cards" data-i18n="inside_page.gift_cards"></option>
-            <option value="/pages/quinte-act-green-initiatives" data-i18n="inside_page.act_green"></option>
+            <option value="/pages/quinte-wifi" data-i18n="inside_page.wifi"></option>
+            <option value="/pages/quinte-tourism" data-i18n="inside_page.tourism"></option>
         </select>
     </h5>
 </div>
