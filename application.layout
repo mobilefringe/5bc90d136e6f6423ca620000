@@ -90,11 +90,6 @@
 						<li><a href="/map" data-i18n="nav.subnav.map"></a></li>
 					</ul>
                 </li>
-                <li>
-                    <a href="/promotions">
-                        <span ></span>
-                    </a>
-                </li>
                  <li>
                     <a href="#" class="submenu_expander open">
                         <span data-i18n="nav.promos"></span>
