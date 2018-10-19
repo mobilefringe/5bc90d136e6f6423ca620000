@@ -95,7 +95,7 @@
             
             // check if top header should be shown 
             if(slug == 'quinte-wifi'){
-                $("#act_green").show();
+                $("#wifi").show();
                 
             }
             else if (slug == 'quinte-tourism'){
