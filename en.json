@@ -63,13 +63,12 @@
 	    "share": "Share: ",
 	    "act_green": "ACT Green",
 	    "in_community": "Community",
-	    "mall_photos": "Mall Photos"
+	    "mall_photos": "Mall Photos",
 	    "wifi": "Wi-Fi",
-			"hours": "Shopping Hours",
-			"mall_info": "Mall Info",
-		    "leasing": "Leasing",
-			"careers": "Careers",
-			"tourism": "Tourism"
+		"mall_info": "Mall Info",
+	    "leasing": "Leasing",
+		"careers": "Careers",
+		"tourism": "Tourism"
 	},
 	"stores": {
 	    "title": "Stores",
