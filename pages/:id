@@ -54,16 +54,10 @@
 </div>
 <div class="store_list_head main_container hidden_now" id="military">
     <div class="row hidden_phone">
-        <div class="col-md-3">
+        <div class="col-md-6">
             <h5><a href="/services" data-i18n="inside_page.services"></a></h5>
         </div>
-        <div class="col-md-3">
-             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
-        </div>
-        <div class="col-md-3">
-            <h5><a href="/pages/quinte-wifi" data-i18n="inside_page.wifi"></a></h5>
-        </div>
-         <div class="col-md-3">
+         <div class="col-md-6">
             <h5 class="active_heading" data-i18n="inside_page.tourism"></h5>
         </div>
     </div>
