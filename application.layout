@@ -108,9 +108,9 @@
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/services" data-i18n="nav.subnav.services"></a></li>
-                        <li><a href="pages/lambton-gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
-                        <li><a href="/pages/lambton-act-green-initiatives" data-i18n="nav.subnav.act_green"></a></li>
-                        <li><a href="/pages/lambton-in-the-community" data-i18n="nav.subnav.in_community"></a></li>
+                        <li><a href="pages/quinte-gift-cards" data-i18n="nav.subnav.gift_cards"></a></li>
+                        <li><a href="/pages/quinte-act-green-initiatives" data-i18n="nav.subnav.act_green"></a></li>
+                        <li><a href="/pages/quinte-in-the-community" data-i18n="nav.subnav.in_community"></a></li>
 					</ul>
                 </li>
                 <li>
@@ -187,7 +187,7 @@
                 <div class="col-md-4 col-xs-2 show_phone"></div>
                 <div class="col-md-4 col-xs-8 text-center">
                     <a href="/">
-                        <img src="//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/png/1539979700406/qm-logo.png" class="main_logo " alt="Lambton Mall Logo">
+                        <img src="//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/png/1539979700406/qm-logo.png" class="main_logo " alt="Quinte Mall Logo">
                     </a>
                 </div>
                 <div class="col-md-4 col-xs-2 text-right position_relative">
@@ -275,7 +275,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="site_map_heading">&copy; <span id="current_year"></span> - Lambton Mall</h3>
+                    <h3 class="site_map_heading">&copy; <span id="current_year"></span> - quinte Mall</h3>
                     <p class="rights_reserved">
                         <a href="https://goo.gl/maps/X9vpPnMnAMT2r" target="_blank">
                             1380 London Rd<br> 
