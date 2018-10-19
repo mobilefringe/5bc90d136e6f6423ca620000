@@ -112,11 +112,6 @@
 						<li><a href="/pages/quinte-charities-non-profit-group" data-i18n="nav.subnav.charity"></a></li>
 					</ul>
                 </li>
-                <li>
-                    <a href="/events">
-                        <span data-i18n="nav.contest_events"></span>
-                    </a>
-                </li>
                  <li>
                     <a href="#"  class="submenu_expander">
                         <span data-i18n="nav.guest_services"></span>
