@@ -99,7 +99,7 @@
                 
             }
             else if (slug == 'quinte-tourism'){
-                $("#in_community").show();
+                $("#tourism").show();
                 
             }
             show_content();
