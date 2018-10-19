@@ -65,7 +65,8 @@
 	    "in_community": "Community",
 	    "mall_photos": "Mall Photos",
 	    "wifi": "Wi-Fi",
-		"tourism": "Tourism"
+		"tourism": "Tourism",
+		"charity": "Charties"
 	},
 	"stores": {
 	    "title": "Stores",
