@@ -98,7 +98,7 @@
                     </a>
                     <ul class="sub_menu">
 						<li><a href="/promotions" data-i18n="nav.subnav.promos"></a></li>
-						<li><a href="/map" data-i18n="nav.subnav.map"></a></li>
+						<li><a href="/military" data-i18n="nav.subnav.map"></a></li>
 					</ul>
                 </li>
                 <li>
