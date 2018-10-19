@@ -10,7 +10,7 @@
         <div class="col-md-3">
             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
         </div>
-         <div class="col-md-3">
+        <div class="col-md-3">
             <h5><a href="/pages/quinte-wifi" data-i18n="inside_page.wifi"></a></h5>
         </div>
          <div class="col-md-3">
