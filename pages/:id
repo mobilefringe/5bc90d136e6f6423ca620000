@@ -129,11 +129,9 @@
             // check if top header should be shown 
             if(slug == 'quinte-wifi'){
                 $("#wifi").show();
-                
             }
             else if (slug == 'quinte-tourism'){
                 $("#tourism").show();
-                
             }
             show_content();
         }
