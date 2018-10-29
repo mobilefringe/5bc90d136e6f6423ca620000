@@ -204,9 +204,9 @@ function renderEventDetails(container, template, collection, mall_name){
 function renderFeatureItems(){
     // var items = getFeatureList();
     var items = [];
-    var images= ["//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389339000/ACT_470X470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389709000/JoinTheList_470x940.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540404767000/SHOPS_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/png/1540828334000/giftcard2.png","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/png/1540828289000/ourstyle.png","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540404887000/Dining_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540302315000/PROMOTIONS_470x940.jpg"]
+    var images= ["//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389339000/ACT_470X470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389709000/JoinTheList_470x940.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540404767000/SHOPS_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/png/1540828334000/giftcard2.png","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540832480000/OurStyle_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540836234000/Contact Us_Girl_600x600.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540302315000/PROMOTIONS_470x940.jpg"]
     
-    var urls = ["/pages/quinte-thinking-green", "/newsletter", "/stores", "/pages/quinte-gift-cards", "feature5_url", "feature6_url", "/promotions"]
+    var urls = ["/pages/quinte-thinking-green", "/newsletter", "/stores", "/pages/quinte-gift-cards", "/pages/quinte-guest-services", "/events", "/promotions"]
     var names = ["feature1", "feature", "featurel", "feature4", "feature5", "feature6", "feature7"];
     $.each(images, function(i, val){
         var item = {};
