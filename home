@@ -45,7 +45,7 @@
         <!--</ul>-->
         <ul class="slides" id="home_banner">
             <li class="position_relative">
-                <a href="/stores" {{css}}>
+                <a href="" {{css}}>
                     <div class="hero_banner" style="background-image: url('//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540392040000/BannerB-1920x540.jpg')"></div>
                 </a>
             </li>
