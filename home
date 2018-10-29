@@ -46,6 +46,16 @@
         <ul class="slides" id="home_banner">
             <li class="position_relative">
                 <a href="/stores" {{css}}>
+                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540?image=775')"></div>
+                </a>
+            </li>
+            <li class="position_relative">
+                <a href="/stores" {{css}}>
+                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540')"></div>
+                </a>
+            </li>
+            <li class="position_relative">
+                <a href="/stores" {{css}}>
                     <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540')"></div>
                 </a>
             </li>
