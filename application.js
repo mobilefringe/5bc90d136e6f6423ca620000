@@ -206,7 +206,7 @@ function renderFeatureItems(){
     var items = [];
     var images= ["//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389339000/ACT_470X470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389709000/JoinTheList_470x940.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540404767000/SHOPS_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/png/1540828334000/giftcard2.png","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/png/1540828289000/ourstyle.png","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540404887000/Dining_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540302315000/PROMOTIONS_470x940.jpg"]
     
-    var urls = ["/feature1_url", "/feature2_url", "feature3_url", "feature4_url", "feature5_url", "feature6_url", "feature7_url"]
+    var urls = ["/pages/quinte-thinking-green", "/newsletter", "/stores", "/pages/quinte-gift-cards", "feature5_url", "feature6_url", "/promotions"]
     $.each(images, function(i, val){
         var item = {};
         item.name = "placeholder";
