@@ -51,12 +51,12 @@
             </li>
             <li class="position_relative">
                 <a href="/stores" {{css}}>
-                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540?image=776')"></div>
+                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540?image=773')"></div>
                 </a>
             </li>
             <li class="position_relative">
                 <a href="/stores" {{css}}>
-                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540?image=777')"></div>
+                    <div class="hero_banner" style="background-image: url('https://picsum.photos/1920/540?image=774')"></div>
                 </a>
             </li>
         </ul>
