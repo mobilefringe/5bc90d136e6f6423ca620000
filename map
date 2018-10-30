@@ -177,7 +177,7 @@
             
             get floors to be visible 
             $(".mapplic-layer").show();
-            go through all the regions and recalculate the locations
+            // go through all the regions and recalculate the locations
             _.forEach(svgList(), function(val, key) {
                 if(val != null) {
                     try {
