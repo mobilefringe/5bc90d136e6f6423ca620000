@@ -286,7 +286,7 @@
             var slug = pathArray[pathArray.length - 1];
             var store_details = getStoreDetailsBySlug(slug);
             self = map.data('mapplic');
-            var svg = document.getElementById('Layer_1');
+            var svg = document.getElementById('landmarks-1');
     
             //get floors to be visible 
             $(".mapplic-layer").show();
