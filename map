@@ -175,7 +175,7 @@
             self = map.data('mapplic');
             var svg = document.getElementById('landmarks-1');
             
-            get floors to be visible 
+            // get floors to be visible 
             $(".mapplic-layer").show();
             // go through all the regions and recalculate the locations
             _.forEach(svgList(), function(val, key) {
