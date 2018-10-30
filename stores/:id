@@ -275,7 +275,7 @@
                         // mapLoaded(map);
                         
                     // },700)
-                    self.showLocation(store_details.id);
+                    self.showLocation(store_details.svgmap_region);
                     // self.addPin(store_details.id);
                 });
             }
