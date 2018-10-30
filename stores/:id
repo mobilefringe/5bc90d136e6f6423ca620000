@@ -272,7 +272,7 @@
     
                 map.on('mapready', function(e, self) {
                     // setTimeout(function(){
-                        // mapLoaded(map);
+                        mapLoaded(map);
                         
                     // },700)
                     self.showLocation(store_details.svgmap_region);
