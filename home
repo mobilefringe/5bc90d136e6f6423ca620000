@@ -93,11 +93,11 @@
                     <!--    </p>-->
                     <!--</span>-->
                     <!--<span class="visible-sm-block visible-xs-block">-->
-                    <span>
+                    <div class="home_feature_hours">
                         <a href="https://twitter.com/quintemall" target="_blank">
                             <h5 id="twitter_mobile" class="insta">FOLLOW US @quintemall</h5>
                         </a>        
-                    </span>
+                    </div>
                 </div>
                 <div id="feature_2" class="position_relative"></div>
                 <div id="feature_3" class="position_relative"></div>
