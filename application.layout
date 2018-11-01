@@ -238,7 +238,7 @@
                                 <p style="display: none;">Twitter</p>
                             </a>
                             <a href="/newsletter">
-                                <span id="social_newsletter"></span>
+                                <span><i class="fas fa-envelope"></i></span>
                                 <p style="display: none;">Newsletter</p>
                             </a>
                             <div class="clearfix"></div>
