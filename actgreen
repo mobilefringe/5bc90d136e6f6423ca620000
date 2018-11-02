@@ -50,7 +50,7 @@
             }
             
             var prefix = get_prefix();
-            var pages_json = prefix + "/pages/quinte-thinking-green"
+            var pages_json = prefix + "/pages/quinte-thinking-green.json"
             $.getJSON(pages_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
                     $('#mm_page_content').html(data.body);
