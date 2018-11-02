@@ -8,7 +8,7 @@
             <h5><a href="/about-us">About Us</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/security">Security</a></h5>
+            <h5 class="active_heading">Security</h5>
         </div>
         <div class="col-md-3">
             <h5 class="active_heading">Contact Us</h5>
