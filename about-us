@@ -21,9 +21,9 @@
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
-            <option value="/contact-us" data-i18n="inside_page.contact"></option>
-            <option value="/hours" data-i18n="inside_page.hours"></option>
-            <option value="/directions-and-parking" data-i18n="inside_page.directions"></option>
+            <option value="/security">Security</option>
+            <option value="/contact-us">Contact Us</option>
+            <option value="/actgreen">ACT GREEN INITIATIVES</option>
         </select>
     </h5>
 </div>
