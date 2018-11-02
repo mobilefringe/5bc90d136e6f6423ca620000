@@ -5,25 +5,25 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-3">
-            <h5 class="active_heading" data-i18n="inside_page.contact"></h5>
+            <h5 class="active_heading">About Us</h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/hours" data-i18n="inside_page.hours"></a></h5>
+            <h5><a href="/security">Security</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/about-us" data-i18n="inside_page.about"></a></h5>
+            <h5><a href="/contact-us">Contact Us</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/directions-and-parking" data-i18n="inside_page.directions"></a></h5>
+            <h5><a href="/actgreen">ACT GREEN INITIATIVES</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
-            <option value="/hours" data-i18n="inside_page.hours"></option>
-            <option value="/about-us" data-i18n="inside_page.about"></option>
-            <option value="/directions-and-parking" data-i18n="inside_page.directions"></option>
+            <option value="/security">SECURITY</option>
+            <option value="/contact-us">CONTACT US</option>
+            <option value="/actgreen">ACT GREEN INITIATIVES</option>
         </select>
     </h5>
 </div>
