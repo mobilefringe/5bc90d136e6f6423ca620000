@@ -23,7 +23,7 @@
             <option value="" disabled selected data-i18n="inside_page.mobile_menu"></option>
             <option value="/security">SECURITY</option>
             <option value="/contact-us">CONTACT US</option>
-            <option value="/actgreen">ACT GREEN INITIATIVES</option>
+            <option value="/about us">ABOUT US</option>
         </select>
     </h5>
 </div>
