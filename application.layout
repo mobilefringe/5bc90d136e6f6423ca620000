@@ -24,8 +24,7 @@
         ga('create', 'UA-50587834-40', 'auto');
         ga('send', 'pageview');
     </script>
-    <!-- FAVICON -->
-    <link rel="icon" href="//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/vnd.microsoft.icon/1534445369000/favicon.ico">
+    
 
     <!--CSS-->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
