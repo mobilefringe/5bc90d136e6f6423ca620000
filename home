@@ -91,7 +91,7 @@
                 <!--    </div>-->
                 <!--</div>-->
                 <div class="social">
-                    <a href="https://www.instagram.com/quintemall/" target="_blank" class="social_box insta_box text-center">
+                    <a href="https://www.instagram.com/quintemall/" target="_blank" class="social_box insta_box text-center" id="social_twitter">
                         <span>
                             <h5 id="twitter_mobile" class="insta">FOLLOW US @quintemall</h5>
                         </span>
