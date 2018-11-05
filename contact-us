@@ -54,9 +54,11 @@
             var pages_json = prefix + "/pages/quinte-contact-us.json"
             $.getJSON(pages_json).done(function(data) {
                 if(Cookies.get('current_locale') == "en-CA"){
+                    $('#mm_page_title').text(data.title);
                     $('#mm_page_content').html(data.body);
                 }
                 if(Cookies.get('current_locale') == "fr-CA"){
+                    $('#mm_page_title').text(data.title_2);
                     $('#mm_page_content').html(data.body_2);
                 }
             }).fail(function(jqXHR) {
