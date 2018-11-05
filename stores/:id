@@ -35,9 +35,6 @@
                                 <div class="margin_20 primary-locale">{{{rich_description}}}</div>
                                 <div class="margin_20 secondary-locale">{{{rich_description_2}}}</div>
                             </div>
-                            <div class="map-container">
-                                <div id="mapsvg_store_detail"></div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
