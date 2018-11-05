@@ -220,14 +220,6 @@
             
             
         }
-        function dropPin(svgmap_region) {
-            
-            self = map.data('mapplic');
-            console.log("svgmap_region", svgmap_region, "self", self)
-            self.showLocation(svgmap_region);
-            $('.stores_table').hide();
-        }
-        
         loadMallDataCached(renderPageData);
     });
 </script>
