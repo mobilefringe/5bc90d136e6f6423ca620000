@@ -824,9 +824,9 @@ function renderStoreList(container, template, collection, starter, breaker){
                 console.log(err);
             }
         }
-        if(value.svgmap_region == null){
-                            value.svgmap_region = value.id;
-                        }
+        if(val.svgmap_region == null){
+            val.svgmap_region = val.id;
+        }
         var current_initial = val.name[0];
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
