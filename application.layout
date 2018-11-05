@@ -133,7 +133,7 @@
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/hours">Hours</a></li>
-                        <li><a href="/security">Leasing</a></li>
+                        <li><a href="/leasing">Leasing</a></li>
                         <li><a href="/contact-us">Contact Us</a></li>
                         <li><a href="/actgreen">ACT Green Initiatives</a></li>
 					</ul>
