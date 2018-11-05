@@ -202,19 +202,19 @@ function renderEventDetails(container, template, collection, mall_name){
 }
 
 function renderFeatureItems(){
-    // var items = getFeatureList();
-    var items = [];
-    var images= ["//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389339000/ACT_470X470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389709000/JoinTheList_470x940.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540404767000/SHOPS_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540997267000/HomePage-GiftCard-470x470_Update.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540832480000/OurStyle_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540997267000/Contact-Us_Girl_600x600_Update.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540302315000/PROMOTIONS_470x940.jpg"]
+    var items = getFeatureList();
+    // var items = [];
+    // var images= ["//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389339000/ACT_470X470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540389709000/JoinTheList_470x940.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540404767000/SHOPS_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540997267000/HomePage-GiftCard-470x470_Update.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540832480000/OurStyle_470x470.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540997267000/Contact-Us_Girl_600x600_Update.jpg","//codecloud.cdn.speedyrails.net/sites/5bc90d136e6f6423ca620000/image/jpeg/1540302315000/PROMOTIONS_470x940.jpg"]
     
-    var urls = ["/pages/quinte-thinking-green", "/newsletter", "/stores", "/pages/quinte-gift-cards", "/pages/quinte-guest-services", "/events", "/promotions"]
-    var names = ["ACT GREEN", "NEWSLETTER", "SHOPS", "", "GUEST SERVICES", "EVENTS", "PROMOTIONS"];
-    $.each(images, function(i, val){
-        var item = {};
-        item.name = names[i];
-        item.url = urls[i]
-        item.image_url = val;
-        items.push(item);
-    });
+    // var urls = ["/pages/quinte-thinking-green", "/newsletter", "/stores", "/pages/quinte-gift-cards", "/pages/quinte-guest-services", "/events", "/promotions"]
+    // var names = ["ACT GREEN", "NEWSLETTER", "SHOPS", "", "GUEST SERVICES", "EVENTS", "PROMOTIONS"];
+    // $.each(images, function(i, val){
+    //     var item = {};
+    //     item.name = names[i];
+    //     item.url = urls[i]
+    //     item.image_url = val;
+    //     items.push(item);
+    // });
     $.each(items, function(i, val){
         if(Cookies.get('current_locale') == "en-CA"){
             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
