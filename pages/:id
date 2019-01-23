@@ -11,7 +11,7 @@
              <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards">Gift Cards</a></h5>
         </div>
         <div class="col-md-3">
-            <h5 class="active_heading" data-i18n="inside_page.wifi"></h5>
+            <h5 class="active_heading" data-i18n="inside_page.wifi">Wi-Fi</h5>
         </div>
          <div class="col-md-3">
             <h5><a href="/pages/quinte-tourism" data-i18n="inside_page.tourism"></a></h5>
