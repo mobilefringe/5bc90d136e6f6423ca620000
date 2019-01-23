@@ -129,7 +129,7 @@
                     <ul class="sub_menu hidden_now">
                         <li><a href="/services" data-i18n="nav.subnav.services">Services</a></li>
                         <li><a href="/gift-cards" data-i18n="nav.subnav.gift_cards">Gift Cards</a></li>
-                        <li><a href="/pages/quinte-wifi" data-i18n="nav.subnav.wifi"></a></li>
+                        <li><a href="/pages/quinte-wifi" data-i18n="nav.subnav.wifi">Wi-Fi</a></li>
                         <li><a href="/pages/quinte-tourism" data-i18n="nav.subnav.tourism"></a></li>
 					</ul>
                 </li>
