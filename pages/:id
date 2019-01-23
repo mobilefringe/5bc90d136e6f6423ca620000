@@ -23,7 +23,7 @@
             <option value="" disabled selected data-i18n="inside_page.mobile_menu">Tap For More Options</option>
             <option value="/services" data-i18n="inside_page.services"></option>
             <option value="/gift-cards" data-i18n="inside_page.gift_cards"></option>
-            <option value="/pages/quinte-tourism" data-i18n="inside_page.tourism"></option>
+            <option value="/pages/quinte-tourism" data-i18n="inside_page.tourism">Tourism</option>
         </select>
     </h5>
 </div>
