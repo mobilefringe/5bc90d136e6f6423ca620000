@@ -8,7 +8,7 @@
             <h5 class="active_heading" data-i18n="inside_page.hours">Hours</h5>
         </div>
         <div class="col-md-4">
-            <h5><a href="/leasing" data-i18n="inside_page.leasing"></a></h5>
+            <h5><a href="/leasing" data-i18n="inside_page.leasing"></a>Leasing</h5>
         </div>
         <div class="col-md-4">
             <h5><a href="/jobs" data-i18n="inside_page.careers"></a></h5>
