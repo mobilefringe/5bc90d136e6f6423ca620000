@@ -8,14 +8,14 @@
             <h5 class="active_heading" data-i18n="inside_page.promos">Promotions</h5>
         </div>
          <div class="col-md-6">
-            <h5 ><a href="/pages/quinte-military-discount-program" data-i18n="inside_page.military"></a></h5>
+            <h5 ><a href="/pages/quinte-military-discount-program" data-i18n="inside_page.military">Military Program</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu">Tap For More Options</option>
-            <option value="/pages/quinte-military-discount-program" data-i18n="inside_page.military"></option>
+            <option value="/pages/quinte-military-discount-program" data-i18n="inside_page.military">Military Program</option>
         </select>
     </h5>
 </div>
