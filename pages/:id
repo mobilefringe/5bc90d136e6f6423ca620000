@@ -39,7 +39,7 @@
             <h5><a href="/pages/quinte-wifi" data-i18n="inside_page.wifi">Wi-Fi</a></h5>
         </div>
          <div class="col-md-3">
-            <h5 class="active_heading" data-i18n="inside_page.tourism"></h5>
+            <h5 class="active_heading" data-i18n="inside_page.tourism">Tourism</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
