@@ -11,7 +11,7 @@
              <h5 class="active_heading" data-i18n="inside_page.gift_cards"></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/pages/quinte-wifi" data-i18n="inside_page.wifi"></a></h5>
+            <h5><a href="/pages/quinte-wifi" data-i18n="inside_page.wifi">Wi-Fi</a></h5>
         </div>
          <div class="col-md-3">
             <h5><a href="/pages/quinte-tourism" data-i18n="inside_page.tourism">Tourism</a></h5>
@@ -22,7 +22,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu">Tap For More Options</option>
             <option value="/services" data-i18n="inside_page.services"></option>
-            <option value="/pages/quinte-wifi" data-i18n="inside_page.wifi"></option>
+            <option value="/pages/quinte-wifi" data-i18n="inside_page.wifi">Wi-Fi</option>
             <option value="/pages/quinte-tourism" data-i18n="inside_page.tourism">Tourism</option>
         </select>
     </h5>
