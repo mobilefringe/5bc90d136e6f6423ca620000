@@ -15,7 +15,7 @@
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu">Tap For More Options</option>
-            <option value="/pages/quinte-charities-non-profit-group" data-i18n="inside_page.charity"></option>
+            <option value="/pages/quinte-charities-non-profit-group" data-i18n="inside_page.charity">Charities</option>
         </select>
     </h5>
 </div>
