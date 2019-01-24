@@ -8,7 +8,7 @@
             <h5 class="active_heading" data-i18n="inside_page.events">Events</h5>
         </div>
          <div class="col-md-6">
-            <h5 ><a href="/pages/quinte-charities-non-profit-group" data-i18n="inside_page.charity"></a></h5>
+            <h5 ><a href="/pages/quinte-charities-non-profit-group" data-i18n="inside_page.charity">Charities</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
