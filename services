@@ -1,11 +1,11 @@
 <div class="main_banner text-center">
-    <h2 data-i18n="inside_page.services"></h2>
+    <h2 data-i18n="inside_page.services">Services</h2>
     <p data-i18n="inside_page.header_tagline">EXPLORE • ENJOY • SHOP</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-3">
-            <h5 class="active_heading" data-i18n="inside_page.services"></h5>
+            <h5 class="active_heading" data-i18n="inside_page.services">Services</h5>
         </div>
         <div class="col-md-3">
             <h5><a href="/gift-cards" data-i18n="inside_page.gift_cards"></a></h5>
