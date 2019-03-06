@@ -52,20 +52,20 @@ $(document).ready(function(e){
             }
         }
         
-        var prefix = get_prefix();
-        var pages_json = prefix + "/pages/quinte-newsletter.json"
-        $.getJSON(pages_json).done(function(data) {
-            if(Cookies.get('current_locale') == "en-CA"){
-                $('#mm_page_content').html(data.body);
-            }
-            if(Cookies.get('current_locale') == "fr-CA"){
-                $('#mm_page_content').html(data.body_2);
-            }
-        }).fail(function(jqXHR) {
-            if (jqXHR.status == 404) {
-                $("#404_msg").fadeIn("fast");
-            }
-        });
+        // var prefix = get_prefix();
+        // var pages_json = prefix + "/pages/quinte-newsletter.json"
+        // $.getJSON(pages_json).done(function(data) {
+        //     if(Cookies.get('current_locale') == "en-CA"){
+        //         $('#mm_page_content').html(data.body);
+        //     }
+        //     if(Cookies.get('current_locale') == "fr-CA"){
+        //         $('#mm_page_content').html(data.body_2);
+        //     }
+        // }).fail(function(jqXHR) {
+        //     if (jqXHR.status == 404) {
+        //         $("#404_msg").fadeIn("fast");
+        //     }
+        // });
             
         show_content();
     }
