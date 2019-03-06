@@ -1120,7 +1120,6 @@ h4 {
     input[type="text"], input[type="email"] {
         margin-top: 5px;
         margin-bottom: 20px;
-        width: 100%;
         border: 1px solid #979797;
     }
     .agree_terms {
