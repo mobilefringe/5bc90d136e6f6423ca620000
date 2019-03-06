@@ -56,7 +56,7 @@
                                 <input id="fieldName" name="cm-name" type="text" />
                             </div>
                             <div class="col-sm-6">
-                                <label for="fieldEmail" data-i18n="newsletter.email">Email</label>
+                                <label for="fieldEmail">Email</label>
                                 <input id="fieldEmail" name="cm-idjdui-idjdui" type="email" class="js-cm-email-input" required />
                             </div>
                         </div>
