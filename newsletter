@@ -51,18 +51,15 @@
     <div class="newsletter_page">
         <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1A12BE0816E8764536BE89530C1F182E6E9E830C3EBA3DBB6F4D1DEC73361D1D796D4AE49453B206466845B7DC63725F3B">
             <div class="floater-left">
-                <label for="fieldName">Name</label>
-                <input id="fieldName" name="cm-name" type="text" required  title="fullname newsletter" class="newletter-hidden" />
+                <div class="col-sm-6">
+                    <label for="fieldName">Name</label>
+                    <input id="fieldName" name="cm-name" type="text" />
+                </div>
+                <div class="col-sm-6">
+                    <label for="fieldEmail">Email</label>
+                    <input id="fieldEmail" name="cm-idjdui-idjdui" type="email" class="js-cm-email-input" required />
+                </div>
             </div>
-            <br />
-            <div class="floater-left>
-                <label for="fieldEmail">Email</label>
-                <input id="fieldEmail" name="cm-idjdui-idjdui" type="email" class="js-cm-email-input" required />
-            </div>
-            <div style="clear:both;"></div>
-            
-            <br />
-            
             <div class="row">
                 <div class="col-sm-12">
                     <label class="agree_terms">
