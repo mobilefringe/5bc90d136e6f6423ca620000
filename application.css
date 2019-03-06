@@ -1121,6 +1121,7 @@ h4 {
         margin-top: 5px;
         margin-bottom: 20px;
         border: 1px solid #979797;
+        width: 100%;
     }
     .agree_terms {
         font-weight: normal;
