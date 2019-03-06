@@ -60,6 +60,8 @@
                 <input id="fieldEmail" name="cm-idjdui-idjdui" type="email" class="js-cm-email-input" required />
             </div>
             <div style="clear:both;"></div>
+            
+            <br />
             <div class="row">
                 <div class="col-sm-12">
                     <label class="agree_terms">
