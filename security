@@ -21,8 +21,8 @@
         <label class="accessibility" for="option_selector">Select an Option</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected data-i18n="inside_page.mobile_menu">Tap For More Options</option>
-            <option value="/contact-us">Contact Us</option>
             <option value="/about-us">About Us</option>
+            <option value="/contact-us">Contact Us</option>
             <option value="/actgreen">Act Green</option>
         </select>
     </h5>
