@@ -38,9 +38,7 @@
                 <li class="position_relative">
                     {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
                         <div class="hero_banner" style="background-image: url({{image_url}})">
-                            <p>
-                            
-                            </p>
+                            <p>Feature Banner</p>
                         </div>
                     </a>
                 </li>
