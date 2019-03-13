@@ -39,6 +39,7 @@
                     {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
                         <div class="hero_banner" style="background-image: url({{image_url}})">
                             <p>
+                            
                             </p>
                         </div>
                     </a>
