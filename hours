@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <h3 class="hours_heading" data-i18n="hours.reduced_hours"></h3>
+                <h3 class="hours_heading" data-i18n="hours.reduced_hours">Holidays</h3>
                 <div id="holidays_hours_container" class="hours_container">
                     <script id="holidays_hours_template" type="x-tmpl-mustache/text">
                         <div class="hours_div">
