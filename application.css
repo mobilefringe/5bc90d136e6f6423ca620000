@@ -144,9 +144,6 @@ body {
 }
 .position_relative {
     position: relative;
-    p {
-        display: none;
-    }
 }
 .management_logo {
     padding-top: 10px;
