@@ -64,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <label class="agree_terms">
+                    <label for="agree_terms" class="agree_terms">
                         <input id="agree_terms" type="checkbox" required /> 
                         <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Quinte Mall via electronic messaging; and I acknowledge that I have read and understand the <a style="color:#581d37" target="_blank" href="/pages/quinte-privacy-policy">Privacy Terms &amp; Conditions</a>.
     </label>
