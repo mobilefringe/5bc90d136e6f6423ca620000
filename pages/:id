@@ -106,17 +106,11 @@
             
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            prefix = get_prefix();
+            var prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
-                if(Cookies.get('current_locale') == "en-CA"){
-                    $('#mm_page_title').html(data.title.toUpperCase());
-                    $('#mm_page_content').html(data.body);
-                }
-                if(Cookies.get('current_locale') == "fr-CA"){
-                    $('#mm_page_title').html(data.title_2.toUpperCase());
-                    $('#mm_page_content').html(data.body_2);
-                }
+                $('#mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
@@ -124,18 +118,16 @@
             }); 
             
             // check if top header should be shown 
-            if(slug == 'quinte-wifi'){
+            if (slug == 'quinte-wifi') {
                 $("#wifi").show();
-            }
-            else if (slug == 'quinte-tourism'){
+            } else if (slug == 'quinte-tourism') {
                 $("#tourism").show();
-            }
-            else if (slug == 'quinte-military-discount-program'){
+            } else if (slug == 'quinte-military-discount-program') {
                 $("#military").show();
-            }
-            else if (slug == 'quinte-charities-non-profit-group'){
+            } else if (slug == 'quinte-charities-non-profit-group') {
                 $("#charity").show();
             }
+            
             show_content();
         }
         loadMallDataCached(renderAll); 
