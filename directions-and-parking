@@ -66,14 +66,8 @@
             var prefix = get_prefix();
             var directions_json = prefix + "/pages/quinte-directions.json"
             $.getJSON(directions_json).done(function(data) {
-                if(Cookies.get('current_locale') == "en-CA"){
-                    $('#directions_title').html(data.title);
-                    $('#directions_content').html(data.body);
-                }
-                if(Cookies.get('current_locale') == "fr-CA"){
-                    $('#directions_title').html(data.title_2);
-                    $('#directions_content').html(data.body_2);
-                }
+                $('#directions_title').html(data.title);
+                $('#directions_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
@@ -82,14 +76,8 @@
             
             var parking_json = prefix + "/pages/quinte-parking.json"
             $.getJSON(parking_json).done(function(data) {
-                if(Cookies.get('current_locale') == "en-CA"){
-                    $('#parking_title').html(data.title);
-                    $('#parking_content').html(data.body);
-                }
-                if(Cookies.get('current_locale') == "fr-CA"){
-                    $('#parking_title').html(data.title_2);
-                    $('#parking_content').html(data.body_2);
-                }
+                $('#parking_title').html(data.title);
+                $('#parking_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
