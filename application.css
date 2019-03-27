@@ -1384,11 +1384,9 @@ h4 {
 }
 
 .direction_container, .contact_container, .about_container{
-    margin-top:25px;
-    border-bottom: 1px solid #979797;
+    margin-top: 25px;
     padding-bottom: 50px;
 }
-
 
 .stores_main_heading{
     font-weight:bold;
