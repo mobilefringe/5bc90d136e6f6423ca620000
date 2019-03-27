@@ -85,9 +85,7 @@
             } else {
                 $('#no_promos').show()
             }
-            
-            console.log(published_promos)
-            
+
             show_content();
         }
 		loadMallDataCached(renderAll); 
