@@ -353,6 +353,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         $("#track_link").click( function() {
             trackOutboundLink('https://www.wires.org.au/');
         });
+        
+        
+        // pixel code 
+        (function(window, document, dataKey, upId, pixelserv) { var cntrUrl = ""; try { cntrUrl = top.location.href; } catch(e) { cntrUrl = (window.location !== window.parent.location) ? document.referrer : document.location.href; } var cntrData = window[dataKey] || {}; if (!cntrData.hasOwnProperty("cntr_url")) cntrData["cntr_url"] = cntrUrl; var queryParams = []; for (var param in cntrData) { if (cntrData.hasOwnProperty(param)) { queryParams.push(encodeURIComponent(param) + "=" + encodeURIComponent(cntrData[param])); } } var query = queryParams.join("&"); var upUrl = pixelserv + '/up/' + upId + (query ? "?" + query : ""); new Image().src = upUrl; (function(d) { var syncUrl = pixelserv + '/dmp/asyncPixelSync'; var iframe = d.createElement('iframe'); (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;"; iframe.src = "javascript:false"; d.body.appendChild(iframe); var doc = iframe.contentWindow.document; doc.open().write(''); doc.close(); })(document); })(window, document, "cntrData", "3921bcdde7ec0422", "https://wl-pixel.index.digital")
+
     </script>
 </body>
 
