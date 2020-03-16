@@ -548,14 +548,29 @@ h4 {
         }
     }
 }
+
+@mixin responsive-ratio($x,$y, $pseudo: false) {
+    $padding: unquote( ( $y / $x ) * 100 + '%' );
+    @if $pseudo {
+        &:before {
+            @include pseudo($pos: relative);
+            width: 100%;
+            padding-top: $padding;
+        }
+    } @else {
+        padding-top: $padding;
+    }
+}
+
 .hero_banner{
+    @include responsive-ratio(32,9);
     background-color:#000;
     background-image: url(//codecloud.cdn.speedyrails.net/sites/59c082786e6f6462ee1d0000/image/jpeg/1505847059000/hero_banner_image_preferred.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center center;
     // height:540px;
-    height: 696px;
+    // height: 696px;
     h3 {
         margin:0;
         font-size: 54px;
