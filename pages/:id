@@ -92,7 +92,7 @@
 <div class="content_container main_container mobile_padding pages_text pages_container">
     <div class="row">
         <div class="col-md-12">
-            <div id="extra_padding" class=""></div>
+            <div id="extra_padding" class="margin_20 hidden_now"></div>
             <div id="mm_page_content"></div>
         </div>
     </div>
@@ -134,6 +134,7 @@
                 $("#wifi").show();
             } else if (slug == 'quinte-covid-19-update') {
                 $("#full_banner").hide();
+                $("#extra_padding").show();
             } else if (slug == 'quinte-tourism'){
                 $("#tourism").show();
             } else if (slug == 'quinte-military-discount-program'){
