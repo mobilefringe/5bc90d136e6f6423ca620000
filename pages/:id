@@ -94,6 +94,11 @@
         </div>
     </div>
 </div>
+<style>
+    #banner {
+        display: none;
+    }
+</style>
 
 <script>
     $(document).ready(function(e){
@@ -129,18 +134,14 @@
             // check if top header should be shown 
             if(slug == 'quinte-wifi'){
                 $("#wifi").show();
-            }
-            else if (slug == 'covid-19-updates') {
-                $("#banner").hide();
-            }
-            else if (slug == 'quinte-tourism'){
+            } else if (slug == 'quinte-tourism'){
                 $("#tourism").show();
-            }
-            else if (slug == 'quinte-military-discount-program'){
+            } else if (slug == 'quinte-military-discount-program'){
                 $("#military").show();
-            }
-            else if (slug == 'quinte-charities-non-profit-group'){
+            } else if (slug == 'quinte-charities-non-profit-group'){
                 $("#charity").show();
+            } else {
+                $("#banner").show();
             }
             show_content();
         }
