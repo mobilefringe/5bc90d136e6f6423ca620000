@@ -2965,7 +2965,8 @@ g.mapplic-active > * {
         text-align: center;
     }
     .feature_items_box {
-        margin-top: -60px;
+        // margin-top: -60px;
+        margin-top: -35px;
     }
 }
 @media(max-width: 425px){
