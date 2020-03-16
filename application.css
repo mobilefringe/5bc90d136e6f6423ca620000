@@ -562,7 +562,7 @@ h4 {
     }
 }
 
-.hero_banner{
+.hero_banner {
     @include responsive-ratio(32,9);
     background-color:#000;
     background-image: url(//codecloud.cdn.speedyrails.net/sites/59c082786e6f6462ee1d0000/image/jpeg/1505847059000/hero_banner_image_preferred.jpg);
