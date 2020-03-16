@@ -3001,7 +3001,8 @@ g.mapplic-active > * {
         display: none;
     }
     .hero_banner {
-        height: 250px;
+        // height: 250px;
+        height: 180px;
     }
     .flex-control-nav {
         bottom: 44px;
