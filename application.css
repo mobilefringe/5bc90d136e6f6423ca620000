@@ -701,50 +701,50 @@ h4 {
     }
    
 }
-.hero_banner{
-    background-color:#000;
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/5b46786f6e6f646dd4270000/image/jpeg/1522339123000/Homepage_1920X5402.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center center;
-    height:540px;
-    h3 {
-        margin:0;
-        font-size: 54px;
-        color: #FFF;
-        letter-spacing: 4px;
-        padding-top: 140px;
-        margin-bottom: 10px;
-        font-family: $secondary_font_family;
-        font-weight: 300;
-    }
-    p{
-        font-size: 24px;
-        color: white;
-        letter-spacing: 0.5px;
-        margin-bottom:32px;
-        font-family: $font_family;
-        text-transform: uppercase;
-    }
-    a{
-        font-weight: 100;
-        font-size: 22px;
-        color: white;
-        letter-spacing: 0.35px;
-        border: 1px solid white;
-        padding: 15px 35px 20px;
-        display: inline-block;
-        background: transparent;
-        line-height: 22px;
-        &:hover{
-            color:#fff;
-            text-decoration:none;
-        }
-        &:before{
-                background: $secondary !important;
-        }
-    }
-}
+// .hero_banner{
+//     background-color:#000;
+//     background-image: url(//codecloud.cdn.speedyrails.net/sites/5b46786f6e6f646dd4270000/image/jpeg/1522339123000/Homepage_1920X5402.jpg);
+//     background-size: cover;
+//     background-repeat: no-repeat; 
+//     background-position: center center;
+//     height:540px;
+//     h3 {
+//         margin:0;
+//         font-size: 54px;
+//         color: #FFF;
+//         letter-spacing: 4px;
+//         padding-top: 140px;
+//         margin-bottom: 10px;
+//         font-family: $secondary_font_family;
+//         font-weight: 300;
+//     }
+//     p{
+//         font-size: 24px;
+//         color: white;
+//         letter-spacing: 0.5px;
+//         margin-bottom:32px;
+//         font-family: $font_family;
+//         text-transform: uppercase;
+//     }
+//     a{
+//         font-weight: 100;
+//         font-size: 22px;
+//         color: white;
+//         letter-spacing: 0.35px;
+//         border: 1px solid white;
+//         padding: 15px 35px 20px;
+//         display: inline-block;
+//         background: transparent;
+//         line-height: 22px;
+//         &:hover{
+//             color:#fff;
+//             text-decoration:none;
+//         }
+//         &:before{
+//                 background: $secondary !important;
+//         }
+//     }
+// }
 
 .jobs_banner{
     background-color: #000;
