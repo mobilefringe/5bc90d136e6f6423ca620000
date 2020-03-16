@@ -1,4 +1,4 @@
-<div class="inside_banner text-center">
+<div id="banner" class="inside_banner text-center">
     <h2 id="mm_page_title"></h2>
     <p data-i18n="inside_page.header_tagline">EXPLORE • ENJOY • SHOP</p>
 </div>
@@ -129,6 +129,9 @@
             // check if top header should be shown 
             if(slug == 'quinte-wifi'){
                 $("#wifi").show();
+            }
+            else if (slug == 'covid-19-updates') {
+                $("#banner").hide();
             }
             else if (slug == 'quinte-tourism'){
                 $("#tourism").show();
