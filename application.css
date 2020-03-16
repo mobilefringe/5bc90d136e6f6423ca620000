@@ -3007,7 +3007,8 @@ g.mapplic-active > * {
         bottom: 44px;
     }
     .feature_items_box{
-        margin-top: -50px;
+        // margin-top: -50px;
+        margin-top: 0;
     }
     .social_box img {
         max-width: 80%;
