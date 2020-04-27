@@ -261,7 +261,7 @@ function floorList() {
     var floor_1 = {};
     floor_1.id = "first-floor";
     floor_1.title = "Level One";
-    floor_1.map =  "https://www.mallmaverick.com/system/site_images/photos/000/045/103/original/Quinte_Mall_-_Map_-_Oct-29-2018.svg?1540915891".split("?")[0];
+    floor_1.map =  "//codecloud.cdn.speedyrails.net/sites/5c48ea166e6f6436c1030000/image/svg+xml/1587959012000/Quinte_Mall_-_Map_-_Oct-29-2018.svg".split("?")[0];
     // getSVGMapURL().split("?")[0];
     floor_1.z_index = 1;
     floor_1.show = true;
