@@ -15,7 +15,7 @@ For more information on asset types please see //www.getcodecloud.com/docs#SaSS
 }
 
 /* COLOURS */
-$primary: #4B3048;
+$primary: #17262e;
 $secondary: #000;
 $font_family: 'Montserrat', sans-serif;
 $secondary_font_family:  'Chronicle Display', serif, arial;
@@ -2117,7 +2117,7 @@ g.mapplic-active > * {
         margin-top: -20px;
        h5, a{
             font-size:20px;
-            color: #4b3048;
+            color: $primary;
             letter-spacing: 1.5px;
             padding: 27px 0px;
             margin: 0;
